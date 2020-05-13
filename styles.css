@@ -1,0 +1,103 @@
+html {
+   background: url(https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/03/RockPaperScissor-2880x1620_Lede.jpg) bottom center;
+   background-size: cover;
+}
+
+body,html {
+   font-family: sans-serif;
+}
+
+h1 {
+   color: rgb(180, 194, 255);
+}
+
+main {
+   display: flex;
+   justify-content: center;
+}
+
+#playerChoice, #computerChoice {
+   font-size: 25px;
+   margin-bottom: 20px;
+   font-weight: 500;
+}
+
+.scorebox {
+   margin-top: 5px;
+   color: rgb(180, 194, 255);
+   width: 100px;
+}
+
+.score {
+   font-size: 50px;
+   margin-top: 5px;
+}
+
+.container {
+   background-color: rgba(0,0,0,0.5);
+   margin-top: 250px;
+   width: 800px;
+   height: 260px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.flex-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.flex-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+#title {
+   justify-content: center;
+}
+
+#buttons {
+   width: 400px;
+   justify-content: space-evenly;
+}
+
+#rock {
+   background-color: #7AA18E;
+}
+
+#paper {
+   background-color: #B69835;
+}
+
+#scissors {
+   background-color: #E65D2F;
+}
+
+#messageBox {
+   color: rgb(103, 122, 204);
+   margin-top: 15px;
+}
+
+button {
+   border: 2px solid #301932;
+   height: 50px;
+   width: 100px;
+   border-radius: 8px;
+   font-size: 18px;
+   font-weight: bold;
+   transition-duration: 0.3s;
+}
+
+button:hover, button:focus {
+   outline: none;
+   -moz-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
